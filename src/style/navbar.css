@@ -1,0 +1,81 @@
+
+.navbar-container {
+    background-color: #034b7b;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 0;
+  }
+  
+
+  .logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .logo-container img{
+    width: 80px;
+  }
+
+  .profile-image{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+
+  .menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0 50px;
+  }
+
+  .hire-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, orange, yellow);
+    border: red 1px solid;
+    box-shadow: 2px 2px 5px 3px grey;
+  }
+
+  .dropdown{
+    position: absolute;
+    background-color: #034b7b;
+    margin-left: -4%;
+    box-shadow: 2px 2px 10px 10px grey;
+  }
+
+  .nav{
+    border: white 1px solid;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    background-color: #034b7b;
+   
+  }
+
+  .nav:hover{
+    background-color: grey;
+    cursor: pointer;
+  }

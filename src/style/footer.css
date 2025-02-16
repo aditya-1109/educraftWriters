@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #131925;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #D1D5D8;
+}
+
+
+
+.footerInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 0 20vw;
+    width: 70vw;
+    border-width: 0.5px 0px;
+    border-color: rgba(217, 214, 214, 0.2);
+    border-style: solid;
+    
+}
+
+.Address{
+    display: flex;
+    flex-direction: column;
+}
+
+.Address img{
+    width: 100px;
+    margin: 20px;
+
+}
+
+.Link{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 10vw;
+    margin-top: 20px;
+}
+
+.download{
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    padding: 20px;
+    border-width: 0.5px 0px;
+    border-color: rgba(217, 214, 214, 0.2);
+    border-style: solid;
+}
+
+.quick-links{
+    gap: 0 10px;
+}
+
+.topStocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70vw;
+    border-width: 0.5px 0px;
+    border-color: rgba(217, 214, 214, 0.2);
+    border-style: solid;
+
+}
+
+.aboutDown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70vw;
+    justify-content: space-between;
+    
+}
+
+.icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Default color */
+}
+.icon.youtube { color: #FF0000; } /* YouTube red */
+.icon.telegram { color: #0088cc; } /* Telegram blue */
+.icon.instagram { color: #C13584; } /* Instagram gradient */
+
+.copyright p{
+    font-size: small;
+    color: grey;
+    font-weight: 400;
+}
