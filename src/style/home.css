@@ -171,3 +171,52 @@
     color: white;
     min-width: 200px;
 }
+
+@media (max-width: 768px) {
+    .heading{
+        
+    padding: 10px 20px;
+    font-size: medium;
+    }
+
+    .benefits-contain{
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    .benefits{
+        width: 60vw;
+    }
+
+    .review-container h1{
+        font-size: large;
+
+    }
+
+
+    .review{
+        min-width: 50vw;
+    }
+
+    .achievements-container{
+        flex-direction: column;
+        padding: 0 20px;
+        align-items: flex-start;
+        width: 50vw;
+    }
+
+    .achievements-container img{
+        width: 100px;
+        align-self: center;
+    }
+
+    .achievement{
+        flex-direction: row;
+        gap: 0 20px;
+        width: 50vw;
+    }
+
+    .achievement p{
+        width: 500px;
+    }
+}
