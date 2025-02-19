@@ -29,7 +29,7 @@ const Navbar = (user) => {
     };
 
     const booking=async()=>{
-        const response= await axios.post("https://educraftwriters-backend.onrender.com/confirmBooking", {number: number, booking: true, service: ""});
+        const response= await axios.post("https://educraftwriters-backend.onrender.co/confirmBooking", {number: number, booking: true, service: ""});
             if(response.data.success){
                 alert(response.data.message)
             }else{
