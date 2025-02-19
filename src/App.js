@@ -30,7 +30,7 @@ function App() {
 
   const onSubmit = async (data) => {
     try{
-      const response = await axios.post("http://localhost:4000/getNumber", { number: data.phoneNumber, name: data.name });
+      const response = await axios.post("https://educraftwriters-backend.onrender.com/getNumber", { number: data.phoneNumber, name: data.name });
     
       if(response.data.success){
         alert(response.data.message);

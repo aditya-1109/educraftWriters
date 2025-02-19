@@ -18,7 +18,7 @@ const Navbar = (user) => {
     const handleService = async(service) => {
         const confirming = window.confirm(`Are you sure you want to book a session for ${service} with our superb writers?`);
         if (confirming) {
-            const response= await axios.post("http://localhost:4000/confirmBooking", {number: number, booking: true, service});
+            const response= await axios.post("https://educraftwriters-backend.onrender.com/confirmBooking", {number: number, booking: true, service});
             if(response.data.success){
                 alert(response.data.message)
             }else{
@@ -29,7 +29,7 @@ const Navbar = (user) => {
     };
 
     const booking=async()=>{
-        const response= await axios.post("http://localhost:4000/confirmBooking", {number: number, booking: true, service: ""});
+        const response= await axios.post("https://educraftwriters-backend.onrender.com/confirmBooking", {number: number, booking: true, service: ""});
             if(response.data.success){
                 alert(response.data.message)
             }else{
