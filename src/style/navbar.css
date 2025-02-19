@@ -63,6 +63,9 @@
     background-color: #034b7b;
     margin-left: -4%;
     box-shadow: 2px 2px 10px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
   }
 
   .nav{
@@ -72,10 +75,32 @@
     margin-bottom: 0;
     padding: 10px 20px;
     background-color: #034b7b;
+    text-align: justify;
    
   }
 
   .nav:hover{
     background-color: grey;
     cursor: pointer;
+  }
+
+  .dropdown-profile{
+    position: absolute;
+   
+    background-color: #034b7b;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    z-index: 3;
+  }
+
+  .profile-nav{
+    
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+    color: white;
+    text-align: justify;
+    z-index: 3;
   }
